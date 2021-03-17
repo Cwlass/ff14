@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+#component{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#component{
+    width: 900px;
+    height: 900px;
+    margin: 25px auto;
+    background-color: #e6e6e6;
+    align-self: center;
+    border-radius: 15px;
+}
+main #search{
+    text-align: center;
+    padding: 20px ;
+}
+#charSheet{
+    display: flex;
+    justify-content: space-between;
+}
+#charSheet img{
+width: 50%;
+margin: 50px;
+}
+#charSheet Article{
+margin: 30px;
+}
+  #searchBar{
+    background-color: #1b1b1b;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #searchBar img{
+    width: 128px;
+  }
+  #searchBar input{
+    margin: 15px 15px;
+  }
+  #searchBar select,
+  label,
+  button{
+    margin: 15px 15px;
+    width: 150px;
+  }
+  #searchBar button{
+    background-color: #d6d4cf;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 5px;
+  }
+  li:hover {
+    cursor: pointer;
+    background-color: #1b1b1b;
+    color : white;
+
+  }
