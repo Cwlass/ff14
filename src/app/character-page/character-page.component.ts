@@ -3,6 +3,8 @@ import { from } from 'rxjs';
 import { ApiGetService } from '../services/api-get.service';
 import { FormsModule } from '@angular/forms'
 
+
+
 @Component({
   selector: 'app-character-page',
   templateUrl: './character-page.component.html',
